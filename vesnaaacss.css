@@ -1,0 +1,210 @@
+header{
+    height: 150vh;
+    background-image: url(vesna.jpg);
+    background-size: cover;
+}
+header div{
+    height: 100vh;
+    display: flex; 
+}
+#poem p { 
+    font-family:kablammo;
+    font-size: medium;
+    color: #e82476;
+    line-height: 2;
+}
+header h1{
+    margin: auto;
+    font-family: Triodion;
+    font-size: 150px;
+    color: rgb(113, 28, 98);
+    text-shadow: 5px 5px 5px #420340;
+}
+@font-face {
+    font-family:Triodion;
+    src: url(fonts/Triodion/Triodion-Regular.ttf);
+}
+#poem{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 50px;
+    background-color: #d4b400;
+    background: linear-gradient(rgb(70, 65, 92), rgb(235, 59, 170))
+}
+@font-face {
+    font-family:kablammo;
+    src: url(fonts/Kablammo/Kablammo-Regular-VariableFont_MORF.ttf);
+}
+#poem img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    transition: all 1s;
+    
+}
+#poem img:hover{
+    transform: scale(1.2);
+}
+#links {
+padding: 50px;
+background-image: url(img\ 2/);
+display: flex;
+flex-direction: column;
+gap: 20px;
+align-items: center;
+justify-content: center;
+}
+#links a { 
+    font-size: 3vw;
+    font-family:oswald ;
+    color: #e36adf;
+    width: 60%;
+    padding-left: 10px 0;
+    background-color: #420340;
+    border: 3px groove coral;
+text-decoration: none;
+text-align: center;
+transition: all 1s;
+}
+#links a:hover{
+border-radius: 40px;
+background-color: rgb(112, 7, 81);
+color: azure;
+transform: scale(1.2);
+
+}
+#priznaki {
+    background-image: url(aaaaa.jpg);
+    color: #e8e3e7;
+    
+    text-decoration: none;
+text-align: left;
+transition: all 1s;
+}
+#priznaki{  
+    padding: 50px;
+    background-color: #e36adf;
+}
+#priznaki h2{
+    text-align: center;
+    color: rgb(216, 171, 236);
+    background-color: #760072a0;
+    padding: 40px;
+}
+#priznaki ul{
+    width: fit-content;
+    margin: auto;
+    list-style-type: none;
+    background-color: #3e023ca0;
+    padding: 40px;
+}  
+#priznaki li:first-child {
+    background-image: url(sun.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}  
+#priznaki li:nth-child(2) {
+    background-image: url(Allergiya.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}  
+#priznaki li:nth-child(3) {
+    background-image: url(Ptitsy.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}  
+#priznaki li:nth-child(4) {
+    background-image: url(Paskha.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}  
+
+#priznaki li:nth-child(5) {
+    background-image: url(flower.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}  
+
+
+
+#gal img{
+    width: 24%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 30px;
+    }
+    #gal {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px 0 ;
+    }
+    #gal{
+        padding: 100px;
+        background-color: rgb(195, 65, 235); 
+    }
+    table {
+        border: 25px inset rgb(236, 142, 208);
+        padding: 30px;
+        margin-left: 40%;
+        margin-top: 50px;
+        border-spacing: 15px;
+        background-color: rgba(236, 142, 208);
+        
+    
+    }
+    td{
+        border: 10px solid rgb(252, 82, 229);
+        padding: 15px;
+        border-radius: 30%;
+        text-align: center;
+    }
+    caption{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    td{
+        font-family: fantasy;
+        background-color: rgb(252, 82, 229);
+    }
+    #second-table {
+        border: 25px inset rgb(221, 129, 233);
+        padding: 30px;
+        margin-left: 40%;
+        margin-top: 50px;
+        border-spacing: 15px;
+        background-color: rgb(235, 115, 215);
+    }
+    #vidka{
+        background-color: rgb(197, 54, 125);
+         text-align: center;
+         padding: 50px;
+     }
+     #vidka video{
+         border: 10px groove rgb(204, 45, 170);
+     width: 80%;
+     height: 800px;
+     object-fit: cover;
+     
+     }
+
+

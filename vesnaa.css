@@ -1,0 +1,46 @@
+header {
+    height: 100vh;
+    background-image: url(img/wallpaper-sakura-blossom-scenic-sky-wind.jpeg);
+    background-size: cover;
+}
+header div{
+    height: 100vh;
+    display: flex;
+}
+header h1{
+    margin: auto;
+    font-family: TriodionRegular;
+font-size: 5vw;
+font-style:initial;
+color:rgb(151, 111, 143);
+}
+@font-face {
+    font-family: TriodionRegular;
+    src: url(fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+#poem{
+    font-family: TriodionRegular;
+    color:rgb(151, 111, 143);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    background-color:rgb(255, 240, 252) ;
+    align-items: center;}
+#poem p {
+font-size: 20px;
+line-height: 2;
+}
+#poem img{
+    border: 10px groove rgb(151, 111, 143);
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+}
+#links{
+    padding: 50px;
+    background-image: url(img/mark-tegethoff-NMLv5HQZnK4-unsplash\ \(1\).jpg);
+}
+
+
+
